@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CheckingLinks">
+
+<test name="TopMenuLinks">
+    <classes>
+        <class name="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu" ></class>  
+    </classes>    
+</test>
+
+<test name="BottomMenuLinks">
+    <classes>
+        <class name="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu" ></class>  
+    </classes>    
+</test>
+
+<test name="Home_HomeAlarms">
+    <classes>
+        <class name="com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms" ></class>  
+    </classes>    
+</test>
+
+
+</suite>
+

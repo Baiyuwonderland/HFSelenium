@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">My Project</th></tr>
+<tr><th colspan="7">CheckingLinks</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TopMenuLinks</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">0</td><td class="numi">0.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Home_HomeAlarms</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">15.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">BottomMenuLinks</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi_attn">1</td><td class="numi">16.9 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">My Project</th></tr>
+<tr><th colspan="4">CheckingLinks</th></tr>
+<tr><th colspan="4">TopMenuLinks &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="6">com.FittedHomeAlarms.CheckingLinks.Home_TopMenu<td><a href="#m1"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr><tr class="skippedodd"><td><a href="#m2"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr><tr class="skippedodd"><td><a href="#m3"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr><tr class="skippedodd"><td><a href="#m4"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr><tr class="skippedodd"><td><a href="#m5"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr><tr class="skippedodd"><td><a href="#m6"><b>Home_TopMenu</b>  </a></td><td class="numi">6</td><td class="numi">278</td></tr>
+<tr><th colspan="4">Home_HomeAlarms &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms<td><a href="#m7"><b>Home_HomeAlarms</b>  </a></td><td class="numi">1</td><td class="numi">15837</td></tr>
+<tr><th colspan="4">BottomMenuLinks &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu<td><a href="#m8"><b>Home_BottomMenu</b>  </a></td><td class="numi">1</td><td class="numi">44</td></tr>
+</table>
+<h1>TopMenuLinks</h1>
+<a id="m1"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=Y, Browser=windowsMozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=N, Browser=windowsIE}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=N, Browser=linuxChrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=N, Browser=windowsSafari}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=N, Browser=linuxMozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_TopMenu:Home_TopMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=N, Browser=windowsChrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_TopMenu.Home_TopMenu(Home_TopMenu.java:29)
+<br/>30 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Home_HomeAlarms</h1>
+<a id="m7"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms:Home_HomeAlarms</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Runmode=Y, Browser=windowsMozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;more_prod_div&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
+System info: host: &apos;dream-pc&apos;, ip: &apos;192.168.238.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 4.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;dream-pc&apos;, ip: &apos;192.168.238.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=7b2c32f3-2e27-4c3d-adbb-d4176650615d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b2c32f3-2e27-4c3d-adbb-d4176650615d</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at com.FittedHomeAlarms.TestBase.listall_homealarms(TestBase.java:315)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms.Home_HomeAlarms(Home_HomeAlarms.java:32)
+<br/>30 lines not shown
+<p>Caused by Screen shot has been taken
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;dream-pc&apos;, ip: &apos;192.168.238.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at com.FittedHomeAlarms.TestBase.listall_homealarms(TestBase.java:315)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms.Home_HomeAlarms(Home_HomeAlarms.java:32)
+<br/>30 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;more_prod_div&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
+System info: host: &apos;dream-pc&apos;, ip: &apos;192.168.238.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;dream-pc&apos;, ip: &apos;192.168.238.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/fennymon/AppData/Local/Temp/anonymous5460172299352468556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+<br/>at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/fennymon/AppData/Local/Temp/anonymous5460172299352468556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9650:3)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/fennymon/AppData/Local/Temp/anonymous5460172299352468556webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/fennymon/AppData/Local/Temp/anonymous5460172299352468556webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/fennymon/AppData/Local/Temp/anonymous5460172299352468556webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>BottomMenuLinks</h1>
+<a id="m8"></a><h2>com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu:Home_BottomMenu</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Menu1=bottomhomealarmslink_xpath, Runmode=Y, Menu13=bottomrequestcallbacklink_xpath, Menu12=bottomcomparealarmslink_xpath, Menu11=bottomtestimonialslink_xpath, Menu10=bottomcookiesclink_xpath, Menu9=bottomtandclink_xpath, Menu8=bottomjobslink_xpath, Menu7=bottomaboutuslink_xpath, Menu6=bottomexpressInstallationlink_xpath, Menu5=bottomalarmcctvinstallationlink_xpath, Browser=windowsMozilla, Menu4=bottomalarmsServicinglink_xpath, Menu3=bottomcctvslink_xpath, Menu2=bottomsafeslink_xpath}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>SKIPPING: (Home_BottomMenu) inside the Suite: (CheckingLinks)</p>
+com.FittedHomeAlarms.TestBase.validateRunmodes(TestBase.java:84)
+<br/>at com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu.Home_BottomMenu(Home_BottomMenu.java:32)
+<br/>30 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

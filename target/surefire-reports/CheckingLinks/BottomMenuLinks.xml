@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="dream-pc" name="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu" tests="1" failures="0" timestamp="11 Feb 2015 21:29:20 GMT" time="0.071" errors="0">
+  <testcase name="Home_BottomMenu" time="0.044" classname="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu">
+    <skipped/>
+  </testcase>
+</testsuite>

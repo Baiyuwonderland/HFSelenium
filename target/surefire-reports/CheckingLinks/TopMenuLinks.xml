@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="dream-pc" name="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu" tests="6" failures="0" timestamp="11 Feb 2015 21:29:20 GMT" time="0.944" errors="0">
+  <testcase name="Home_TopMenu" time="0.054" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_TopMenu" time="0.046" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_TopMenu" time="0.044" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_TopMenu" time="0.05" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_TopMenu" time="0.043" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_TopMenu" time="0.038" classname="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+    <skipped/>
+  </testcase>
+</testsuite>

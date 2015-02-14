@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [CheckingLinks]">
+  <listeners>
+    <listener class-name="com.FittedHomeAlarms.CustomListener"/>
+  </listeners>
+  <test name="TopMenuLinks(failed)" preserve-order="false">
+    <classes>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms">
+        <methods>
+          <include name="close"/>
+          <include name="beFore"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="Home_TopMenu" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="close"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="close"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Home_HomeAlarms(failed)" preserve-order="false">
+    <classes>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms">
+        <methods>
+          <include name="close"/>
+          <include name="Home_HomeAlarms" invocation-numbers="0"/>
+          <include name="beFore"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="close"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="close"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="BottomMenuLinks(failed)" preserve-order="false">
+    <classes>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_HomeAlarms">
+        <methods>
+          <include name="close"/>
+          <include name="beFore"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_TopMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="close"/>
+        </methods>
+      </class>
+      <class name="com.FittedHomeAlarms.CheckingLinks.Home_BottomMenu">
+        <methods>
+          <include name="beFore"/>
+          <include name="Home_BottomMenu" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

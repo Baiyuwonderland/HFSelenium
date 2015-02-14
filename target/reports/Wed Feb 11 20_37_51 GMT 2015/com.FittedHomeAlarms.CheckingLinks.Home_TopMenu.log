@@ -1,0 +1,18 @@
+2015-02-11 20:37:51,928 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:51,979 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:true ]
+2015-02-11 20:37:51,980 DEBUG [Home_TopMenu] 		Quiting Driver
+2015-02-11 20:37:51,981 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:52,022 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:false ]
+2015-02-11 20:37:52,023 DEBUG [Home_TopMenu] 		Quiting Driver
+2015-02-11 20:37:52,023 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:52,068 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:false ]
+2015-02-11 20:37:52,068 DEBUG [Home_TopMenu] 		Quiting Driver
+2015-02-11 20:37:52,069 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:52,113 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:false ]
+2015-02-11 20:37:52,113 DEBUG [Home_TopMenu] 		Quiting Driver
+2015-02-11 20:37:52,113 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:52,153 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:false ]
+2015-02-11 20:37:52,154 DEBUG [Home_TopMenu] 		Quiting Driver
+2015-02-11 20:37:52,154 DEBUG [Home_TopMenu] 
+2015-02-11 20:37:52,196 DEBUG [Home_TopMenu] SKIPPING: (Home_TopMenu) inside the Suite: (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:false | DataSetRunmode:false ]
+2015-02-11 20:37:52,196 DEBUG [Home_TopMenu] 		Quiting Driver

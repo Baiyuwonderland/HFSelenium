@@ -1,0 +1,18 @@
+2015-02-11 19:45:58,477 DEBUG [Home_BottomMenu] 
+2015-02-11 19:45:58,508 DEBUG [Home_BottomMenu] EXECUTING: (Home_BottomMenu) inside the Suite (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:true | DataSetRunmode:true ]
+2015-02-11 19:45:58,509 DEBUG [Home_BottomMenu] 		Opening windowsMozilla
+2015-02-11 19:46:04,120 DEBUG [Home_BottomMenu] 		Navigating testSiteURL=http://www.fittedhomealarms.co.uk/
+2015-02-11 19:46:10,269 DEBUG [Home_BottomMenu] 		Clicking bottomhomealarmslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[1]/a
+2015-02-11 19:46:11,544 DEBUG [Home_BottomMenu] 		Clicking bottomsafeslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[2]/a
+2015-02-11 19:46:16,893 DEBUG [Home_BottomMenu] 		Clicking bottomcctvslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[3]/a
+2015-02-11 19:46:19,948 DEBUG [Home_BottomMenu] 		Clicking bottomalarmsServicinglink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[4]/a
+2015-02-11 19:46:23,266 DEBUG [Home_BottomMenu] 		Clicking bottomalarmcctvinstallationlink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[5]/a
+2015-02-11 19:46:24,540 DEBUG [Home_BottomMenu] 		Clicking bottomexpressInstallationlink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[1]/ul/li[6]/a
+2015-02-11 19:46:27,633 DEBUG [Home_BottomMenu] 		Clicking bottomaboutuslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[2]/ul/li[1]/a
+2015-02-11 19:46:30,256 DEBUG [Home_BottomMenu] 		Clicking bottomjobslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[2]/ul/li[2]/a
+2015-02-11 19:46:35,158 DEBUG [Home_BottomMenu] 		Clicking bottomtandclink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[2]/ul/li[3]/a
+2015-02-11 19:46:38,691 DEBUG [Home_BottomMenu] 		Clicking bottomcookiesclink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[2]/ul/li[4]/a
+2015-02-11 19:46:41,822 DEBUG [Home_BottomMenu] 		Clicking bottomtestimonialslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[2]/ul/li[5]/a
+2015-02-11 19:46:45,844 DEBUG [Home_BottomMenu] 		Clicking bottomcomparealarmslink_xpath=html/body/div[6]/div[2]/div[1]/div[2]/div[3]/ul/li[1]/a
+2015-02-11 19:46:49,324 DEBUG [Home_BottomMenu] 		Clicking bottomrequestcallbacklink_xpath=html/body/div[5]/div[2]/div[1]/div[2]/div[3]/ul/li[2]/a
+2015-02-11 19:46:53,412 DEBUG [Home_BottomMenu] 		Quiting Driver

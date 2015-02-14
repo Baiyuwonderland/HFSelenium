@@ -1,0 +1,6 @@
+2015-02-11 21:12:26,320 DEBUG [Home_HomeAlarms] 
+2015-02-11 21:12:26,349 DEBUG [Home_HomeAlarms] EXECUTING: (Home_HomeAlarms) inside the Suite (CheckingLinks) , [ SuiteRunmode:true | TestCaseRunmode:true | DataSetRunmode:true ]
+2015-02-11 21:12:26,349 DEBUG [Home_HomeAlarms] 		Opening windowsMozilla
+2015-02-11 21:14:51,182 DEBUG [Home_HomeAlarms] 		Navigating testSiteURL=http://www.fittedhomealarms.co.uk/
+2015-02-11 21:14:57,376 DEBUG [Home_HomeAlarms] 		Checking iselement present //ul[@id='nav']/li[4]/a=null
+2015-02-11 21:14:57,459 DEBUG [Home_HomeAlarms] 		Clicking //ul[@id='nav']/li[4]/a=null

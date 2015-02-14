@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8538" started-at="2015-02-10T21:29:10Z" finished-at="2015-02-10T21:29:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8538" started-at="2015-02-10T21:29:10Z" finished-at="2015-02-10T21:29:19Z">
+      <class name="roughwork.WebDriverTemplate_YahooCSS">
+        <test-method status="PASS" signature="testyahoo(java.lang.String)[pri:0, instance:roughwork.WebDriverTemplate_YahooCSS@7cf10a6f]" name="testyahoo" duration-ms="8524" started-at="2015-02-10T21:29:10Z" data-provider="browserData" finished-at="2015-02-10T21:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testyahoo -->
+      </class> <!-- roughwork.WebDriverTemplate_YahooCSS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

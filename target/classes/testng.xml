@@ -1,0 +1,10 @@
+<suite name="My Project" parallel="tests">
+<listeners>
+    <listener class-name="com.FittedHomeAlarms.CustomListener" />
+</listeners>
+
+  <suite-files>
+   <suite-file path="./CheckingLinks.xml" />
+  </suite-files>
+  
+</suite>
